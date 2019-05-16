@@ -1,5 +1,9 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,14 +13,20 @@
 </head>
 
 <body>
-    
-<form action="/my-handling-form-page" method="post">
 
+
+    
+<form action="/my-handling-form-page" method="POST">
+    <input type="text" name="favourite_movie">
+    <button>SUBMIT</button>
 </form> 
+
+<?php
+$name = $_POST['favourite_movie']; 
+echo $name." is my favourite movie"; 
+?>
+
 
 </body>
 </html>
 
-<?php
-echo 'Hello ' . htmlspecialchars($_POST["name"]) . '!';
-?>
