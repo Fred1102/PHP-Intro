@@ -1,3 +1,9 @@
+
+<?php 
+require "login.php";
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,8 +28,6 @@ else {
     "Wrong username or password";
 }
 }
-
-
 
 else {
     echo
