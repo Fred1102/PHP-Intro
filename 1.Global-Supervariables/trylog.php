@@ -20,14 +20,15 @@ if (!empty ($_POST['username']) && !empty ($_POST['password'])){
     $username = 'Fred';
     $password = 'becode'; 
 
-if ($_POST['username'] == $username && $_POST['password'] == $password){
-    echo "Congrats, you are in!";
+    if ($_POST['username'] == $username && $_POST['password'] == $password)
+        echo "Right username and pasword";
+    
+    else {
+        echo "Wrong username or pasword";
+    }
 }
-else {
-    echo
-    "Wrong username or password";
-}
-}
+
+
 
 else {
     echo
