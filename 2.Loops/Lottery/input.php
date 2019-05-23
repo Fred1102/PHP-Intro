@@ -10,7 +10,7 @@
 </head>
 <body>
 
-<form action="lottery.php" method="post">
+<form action="lottery.php" method="post" class="w-25 p-3 mx-auto text-center">
 <div>
 <img src="🍕" alt="pizza"><input type="radio" name="option" value="pizza">
 </div>
