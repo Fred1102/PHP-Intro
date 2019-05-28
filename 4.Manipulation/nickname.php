@@ -19,8 +19,6 @@ for ($i=0; $i<count($indexs); ++$i){
 $final_string = implode($simbols);
 
 echo $final_string."X". "- " .strrev(strtoupper(strrev($_POST["user"])))." -";
-
-
 }
 
 ?>
